@@ -9,11 +9,18 @@
 import UIKit
 
 class CollectionViewController: UIViewController {
-
+    @IBOutlet var settingsButton: UIBarButtonItem!
+    
+    @IBAction func touchUpSettingsButton(_ sender: UIBarButtonItem) {
+        selectOrderingStyle(controller: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.navigationController?.navigationBar.topItem?.title = "예매율"
     }
     
 

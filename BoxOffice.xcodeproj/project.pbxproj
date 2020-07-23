@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3429DD624C72BC700569CC3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3429DD524C72BC700569CC3 /* Request.swift */; };
+		B3429E1424C80A5E00569CC3 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3429E1324C80A5E00569CC3 /* MovieTableViewCell.swift */; };
+		B3429E1624C80E8B00569CC3 /* ShowAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3429E1524C80E8B00569CC3 /* ShowAlertController.swift */; };
+		B3429E1824C8102300569CC3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3429E1724C8102300569CC3 /* TableViewController.swift */; };
+		B3429E1A24C816C500569CC3 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3429E1924C816C500569CC3 /* CollectionViewController.swift */; };
+		B3429E1C24C8187000569CC3 /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3429E1B24C8187000569CC3 /* MovieInfo.swift */; };
 		B3E723D124C58D06000474A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E723D024C58D06000474A3 /* AppDelegate.swift */; };
 		B3E723D324C58D06000474A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E723D224C58D06000474A3 /* SceneDelegate.swift */; };
 		B3E723D524C58D06000474A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E723D424C58D06000474A3 /* ViewController.swift */; };
@@ -15,6 +21,11 @@
 		B3E723DD24C58D08000474A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E723DB24C58D08000474A3 /* LaunchScreen.storyboard */; };
 		B3E723E824C58D08000474A3 /* BoxOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E723E724C58D08000474A3 /* BoxOfficeTests.swift */; };
 		B3E723F324C58D08000474A3 /* BoxOfficeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E723F224C58D08000474A3 /* BoxOfficeUITests.swift */; };
+		B3E7240124C58D2F000474A3 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7240024C58D2F000474A3 /* AlertViewController.swift */; };
+		B3E7240324C5B081000474A3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7240224C5B081000474A3 /* TabBarViewController.swift */; };
+		B3E7240524C5B49F000474A3 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7240424C5B49F000474A3 /* NetworkingViewController.swift */; };
+		B3E7240724C5B506000474A3 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7240624C5B506000474A3 /* Friends.swift */; };
+		B3E7240924C68561000474A3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E7240824C68561000474A3 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B3429DD524C72BC700569CC3 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B3429E1324C80A5E00569CC3 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		B3429E1524C80E8B00569CC3 /* ShowAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertController.swift; sourceTree = "<group>"; };
+		B3429E1724C8102300569CC3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B3429E1924C816C500569CC3 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		B3429E1B24C8187000569CC3 /* MovieInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
 		B3E723CD24C58D06000474A3 /* BoxOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E723D024C58D06000474A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3E723D224C58D06000474A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,11 @@
 		B3E723EE24C58D08000474A3 /* BoxOfficeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxOfficeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E723F224C58D08000474A3 /* BoxOfficeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfficeUITests.swift; sourceTree = "<group>"; };
 		B3E723F424C58D08000474A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3E7240024C58D2F000474A3 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		B3E7240224C5B081000474A3 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		B3E7240424C5B49F000474A3 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
+		B3E7240624C5B506000474A3 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		B3E7240824C68561000474A3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +124,21 @@
 				B3E723D024C58D06000474A3 /* AppDelegate.swift */,
 				B3E723D224C58D06000474A3 /* SceneDelegate.swift */,
 				B3E723D424C58D06000474A3 /* ViewController.swift */,
+				B3429E1724C8102300569CC3 /* TableViewController.swift */,
+				B3429E1924C816C500569CC3 /* CollectionViewController.swift */,
+				B3E7240024C58D2F000474A3 /* AlertViewController.swift */,
+				B3E7240224C5B081000474A3 /* TabBarViewController.swift */,
 				B3E723D624C58D06000474A3 /* Main.storyboard */,
 				B3E723D924C58D08000474A3 /* Assets.xcassets */,
 				B3E723DB24C58D08000474A3 /* LaunchScreen.storyboard */,
 				B3E723DE24C58D08000474A3 /* Info.plist */,
+				B3E7240424C5B49F000474A3 /* NetworkingViewController.swift */,
+				B3429DD524C72BC700569CC3 /* Request.swift */,
+				B3E7240624C5B506000474A3 /* Friends.swift */,
+				B3E7240824C68561000474A3 /* Model.swift */,
+				B3429E1324C80A5E00569CC3 /* MovieTableViewCell.swift */,
+				B3429E1524C80E8B00569CC3 /* ShowAlertController.swift */,
+				B3429E1B24C8187000569CC3 /* MovieInfo.swift */,
 			);
 			path = BoxOffice;
 			sourceTree = "<group>";
@@ -259,9 +292,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3429E1C24C8187000569CC3 /* MovieInfo.swift in Sources */,
+				B3429E1A24C816C500569CC3 /* CollectionViewController.swift in Sources */,
+				B3429E1424C80A5E00569CC3 /* MovieTableViewCell.swift in Sources */,
 				B3E723D524C58D06000474A3 /* ViewController.swift in Sources */,
+				B3E7240724C5B506000474A3 /* Friends.swift in Sources */,
+				B3429E1624C80E8B00569CC3 /* ShowAlertController.swift in Sources */,
 				B3E723D124C58D06000474A3 /* AppDelegate.swift in Sources */,
+				B3E7240524C5B49F000474A3 /* NetworkingViewController.swift in Sources */,
 				B3E723D324C58D06000474A3 /* SceneDelegate.swift in Sources */,
+				B3429E1824C8102300569CC3 /* TableViewController.swift in Sources */,
+				B3E7240324C5B081000474A3 /* TabBarViewController.swift in Sources */,
+				B3E7240124C58D2F000474A3 /* AlertViewController.swift in Sources */,
+				B3429DD624C72BC700569CC3 /* Request.swift in Sources */,
+				B3E7240924C68561000474A3 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
